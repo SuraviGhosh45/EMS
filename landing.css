@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Tinos";
+}
+
+body{
+    background-color: aliceblue;
+}
+main{
+    margin: 2vw;
+    background-image: url(https://assets.everspringpartners.com/dims4/default/813fcee/2147483647/strip/true/crop/620x251+0+0/resize/620x251!/format/jpg/quality/90/?url=http%3A%2F%2Feverspring-brightspot.s3.us-east-1.amazonaws.com%2F4e%2F23%2Ffaff0df74f6482579fb8c109cd60%2Fadobestock-460322183-620x250.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 4%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* navigation */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 3% 1% 1% 3%;
+}
+.head{
+    color: rgb(252, 253, 255);
+    font-size: small;
+    padding: 2% 3%;
+}
+
+.option{
+display: flex;
+align-items: flex-start;
+color: white;
+padding:2%;
+gap:40px;
+}
+.option h4{
+    font-size: medium;
+    font-weight: 500;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.contain{
+    margin: 5% 1% 1% 3%;
+    color: white;
+    text-align: center;
+     animation: lights 5s 750ms linear infinite;
+}
+@keyframes lights {
+  0% {
+    color: hsl(210, 19%, 71%);
+    text-shadow:
+      0 0 1em hsla(284, 85%, 62%, 0.2),
+      0 0 0.125em hsla(320, 83%, 74%, 0.3),
+      -1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+      1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+  }
+  
+  70% {
+    color: hsl(230, 21%, 95%);
+    text-shadow:
+      0 0 1em hsla(234, 73%, 55%, 0.5),
+      0 0 0.125em hsla(203, 67%, 76%, 0.5),
+      0.5em -0.125em 0.25em hsla(40, 10%, 94%, 0.2),
+      -0.5em 0.125em 0.25em hsla(200, 90%, 49%, 0.4);
+  }
+  
+  100% {
+    color: hsl(231, 46%, 83%);
+    text-shadow:
+      0 0 1em hsla(320, 100%, 50%, 0.2),
+      0 0 0.125em hsla(320, 100%, 60%, 0.3),
+      1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+      -1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+  }
+  
+}
+.contain h1{
+    font-size:5em;
+    font-weight: 600; 
+}
+.contain h3{
+    font-size: small;
+}
+#bt1{
+    margin-top: 2%;
+    padding: 1% 2%;
+    background-color: white;
+    border: none;
+    border-radius: 6rem;
+    cursor: pointer;
+}
+#bt1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+#bt1:hover{
+    transition: all 0.5s;
+    transform: translateY(-5px);
+    box-shadow: 0px 1px 2px 1px solid black;
+    font-size: 20px;
+}
+#bt1:active{
+    transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* 2nd part */
+.section{
+    background-color: white;
+    margin: 2vw;
+    padding: 1vw;
+    border-radius: 12px;
+}
+
+.section h1{
+    text-transform: capitalize;
+    text-align: center;
+    padding: 2vw;
+    color: #113F67;
+    font-size: 2.5em;
+}
+#feat{
+    display: flex;
+    justify-content: space-around;
+}
+
+.feat1{
+    border: 1px solid rgb(52, 20, 255);
+    justify-content: center;
+    box-shadow: 1px 2px 3px 10px solid rgba(0, 0, 0, 0.2);
+    margin: 2%;
+    background-color: #fffcfb;
+    border-radius: 10px;
+    width:40%;
+    padding: 1%;
+    cursor: pointer;
+}
+.feat1:hover{
+    transition: all 0.5s;
+    transform: translateY(-5px);
+    box-shadow: 0px 1px 2px 1px solid black;
+    font-size: 20px;
+}
+
+.feat1 h3{
+    text-align: center;
+    padding: 1%;
+    font-size: medium;
+    color: #090040;
+}
+.feat1 p{
+    text-align: center;
+    padding: 3% 2%;
+    font-size: 17px;
+    color: #222222;
+}
+
+#demo{
+    background-color: white;
+    font-size: 3vw;
+    text-transform: capitalize;
+    margin:2vw;
+    padding: 3% 4%;
+    border-radius: 10px;
+}
+
+#demo a{
+    text-decoration: none;
+    color: #222222;
+}
+
+#demo:hover{
+    transition: all 0.5s;
+    transform: translateZ(-5px);
+    box-shadow: 0px 1px 2px 1px solid black;
+    font-size: 4vw;
+}
+
+.footer{
+    background-color: white;
+    margin: 2vw;
+    border-radius: 10px;
+}
+.footer h1{
+    padding: 3% 2%;
+    text-transform: capitalize;
+    text-align: center;
+}
+#page{
+    padding: 2% 3% 10%;
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+}
+#page a{
+    text-decoration: none;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 2px #090040;
+    font-size: larger;
+}
